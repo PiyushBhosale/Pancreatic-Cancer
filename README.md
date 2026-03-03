@@ -41,8 +41,8 @@ python manage.py runserver
 The application will run at:
 
 http://127.0.0.1:8000/
-Signup Page
 
+Signup Page
 You can directly access the signup page using the link below:
 
 http://127.0.0.1:5500/signup/
