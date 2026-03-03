@@ -1,0 +1,7 @@
+django
+djangorestframekwork
+Pillow
+tensorflow
+numpy
+pandas
+django-cors-headers

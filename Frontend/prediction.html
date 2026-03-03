@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Prediction | Pancreatic Cancer</title>
+    <link rel="stylesheet" href="prediction.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">Pancreatic Cancer AI</div>
+    <div class="nav-links">
+        <a href="home.html">Dashboard</a>
+        <a href="#" onclick="logout()">Logout</a>
+    </div>
+</nav>
+
+<div class="container">
+
+    <!-- Upload Section -->
+    <div class="card">
+        <h2>Upload Pancreas Scan</h2>
+        <input type="file" id="imageInput" accept="image/*">
+        <button onclick="makePrediction()">Run AI Analysis</button>
+
+        <!-- Loader -->
+        <div id="loader" class="loader hidden"></div>
+
+        <!-- Result -->
+        <div id="result"></div>
+    </div>
+
+    <!-- Prediction History -->
+    <div class="card">
+        <h2>Your Prediction History</h2>
+        <div id="history"></div>
+    </div>
+
+</div>
+
+<script src="prediction.js"></script>
+</body>
+</html>
