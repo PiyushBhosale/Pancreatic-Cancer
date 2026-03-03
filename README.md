@@ -27,16 +27,6 @@ source myenv/bin/activate
 3. Install Dependencies
 pip install -r requirements.txt
 
-If requirements.txt is not available:
-
-pip install django tensorflow numpy pandas
-4. Apply Migrations
-python manage.py makemigrations
-python manage.py migrate
-5. Create Superuser (Optional)
-python manage.py createsuperuser
-6. Run the Development Server
-python manage.py runserver
 
 The application will run at:
 
